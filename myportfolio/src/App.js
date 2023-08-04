@@ -7,6 +7,7 @@ import About from './Components/About'
 import Navbarr from './Components/Navbarr'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Socials from './Components/Socials'
+import Galaxy from './Components/Galaxy'
 
 
 
@@ -18,14 +19,16 @@ const App = () => {
         {/* <Switch> */}
 
         <Navbarr />
+        {/* <Galaxy/> */}
         {/* <AboutImage /> */}
         {/* <Hoodie /> */}
         <Home />
         <Socials />
         <About />
         <Skils />
+        
         {/* </Switch> */}
-        <Socials />
+       
       </Router>
     </>
   )

@@ -1,11 +1,12 @@
 .home-main {
     margin-top: 5rem;
+    margin-bottom: 3rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     /* justify-content: space-around; */
-    /* border: 3px solid red; */
+    /* border: 3px solid yellow; */
     width: 100vw;
     height: 88vh;
     padding-left: 2.5rem;

@@ -2,11 +2,13 @@ import React from 'react'
 import './css/Home.css'
 // import { requirePropFactory } from '@mui/material'
 import { FaGreaterThan } from 'react-icons/fa'
+import Galaxy from './Galaxy'
 
 const Home = () => {
   return (
     <>
-      <div className='home-main' id='Home'>
+      <div className='home-main' id='home'>
+
 
         <div className='home-content' style={{}}>
           <h3>Hi, I'm Tanmay</h3>
@@ -31,7 +33,9 @@ const Home = () => {
         <div className='home-image floating'>
           <img src={require('../assets/Home-computer.png')} alt="" />
         </div>
+        <Galaxy />
       </div >
+
 
     </>
   )

@@ -1,10 +1,8 @@
 import React, { useState } from 'react'
 import './css/Navbarr.css'
 import { AiOutlineMenu } from 'react-icons/ai'
-import { Link } from 'react-scroll'
-// import { HashLink as Link } from 'react-router-hash-link'
-// import { NavLink } from 'react-router-dom';
-// import { LuBug } from 'react-icons/lu'
+import { NavLink } from 'react-router-dom';
+import { LuBug } from 'react-icons/lu'
 
 const Navbarr = () => {
 
@@ -42,11 +40,12 @@ const Navbarr = () => {
                 }>
                     <ul className='grow2' >
 
-                        <li className='grow' > <Link to="home" spy={true} smooth={true} offset={-100} duration={500} >Home</Link></li>
-                        <li className='grow' > <Link to="about" spy={true} smooth={true} offset={-90} duration={500}>About</Link></li>
-                        <li className='grow' > <Link to="skills" spy={true} smooth={true} offset={-86} duration={500}>Skills</Link></li>
-                        <li className='grow' > <Link to="projects" spy={true} smooth={true} offset={50} duration={500}>Projects</Link></li>
-                        <li className='grow' > <Link to="contact" spy={true} smooth={true} offset={50} duration={500}>Contact</Link> </li>
+                        <li > <a className='grow' href="#Home">Home</a> </li>
+                        <li > <a className='grow' href="#about">About</a></li>
+                        <li ><a className='grow' href="#skills">Skills</a></li>
+                        <li > <a className='grow' href="#projects">Projects</a></li>
+                        <li > <a className='grow' href="#contact">Contact</a></li>
+
 
                     </ul>
                 </div>
@@ -59,11 +58,3 @@ const Navbarr = () => {
 }
 
 export default Navbarr
-
-
-
-{/* <li > <a className='grow' href="#Home">Home</a> </li>
-<li > <a className='grow' href="#about">About</a></li>
-<li ><a className='grow' href="#skills">Skills</a></li>
-<li > <a className='grow' href="#projects">Projects</a></li>
-<li > <a className='grow' href="#contact">Contact</a></li> */}
