@@ -14,8 +14,19 @@ const Navbarr = () => {
             <nav className='main-nav'>
 
                 <div className='nav-logo'>
-                    <h3>Tanmay</h3>
                     {/* <LuBug size={35} /> */}
+                    {/* <h3 style={{ textShadow: "3px 3px #0277BD" }}>Tanmay</h3> */}
+                    <h3 style={{
+                        fontWeight: 'bolder',
+                        background: '#FFFFFF',
+                        background: 'linear-gradient(to bottom right, #FFFFFF 20%, #3C32B0 100%)',
+                        WebkitBackgroundClip: 'text',
+                        WebkitTextFillColor: 'transparent',
+                        fontSize: '2.5rem'
+                    }}>Tanmay</h3>
+
+                    {/* textShadow: "3px 3px #881ac3" */}
+
                 </div>
 
                 <div className='ham-menu'>
@@ -25,22 +36,23 @@ const Navbarr = () => {
                 </div>
 
                 <div className={
-                    change ? "nav-options mobile-nav" : "nav-options"
+                    change ? "mobile-nav nav-options" : "nav-options"
                 }>
-                    <ul>
+                    <ul className='grow2' >
 
-                        <li><NavLink to="/">Home</NavLink> </li>
-                        <li><NavLink to="/About">About</NavLink></li>
-                        <li><NavLink to="/Skills">Skills</NavLink></li>
-                        <li><NavLink to="/Projects">Projects</NavLink></li>
-                        <li><NavLink to="/contact"> contact </NavLink></li>
+                        <li > <a className='grow' href="#Home">Home</a> </li>
+                        <li > <a className='grow' href="#about">About</a></li>
+                        <li ><a className='grow' href="#skills">Skills</a></li>
+                        <li > <a className='grow' href="#projects">Projects</a></li>
+                        <li > <a className='grow' href="#contact">Contact</a></li>
+
 
                     </ul>
                 </div>
 
 
 
-            </nav>
+            </nav >
         </>
     )
 }

@@ -6,6 +6,9 @@ import './App.css'
 import About from './Components/About'
 import Navbarr from './Components/Navbarr'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Socials from './Components/Socials'
+
+
 
 const App = () => {
   return (
@@ -13,11 +16,16 @@ const App = () => {
     <>
       <Router>
         {/* <Switch> */}
-        {/* <Home/> */}
+
         <Navbarr />
-        {/* <Skils /> */}
+        {/* <AboutImage /> */}
+        {/* <Hoodie /> */}
+        <Home />
+        <Socials />
         <About />
+        <Skils />
         {/* </Switch> */}
+        <Socials />
       </Router>
     </>
   )

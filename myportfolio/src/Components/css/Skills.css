@@ -1,3 +1,18 @@
-.main-card{
-    background-color: #1A1A1A;
+@media (max-width: 767px) {
+  .mobile-style {
+    height: auto;
+    margin-top: 0;
+  }
+}
+
+.fs-1 h1 {
+  background: white;
+  /* background: #FFFFFF; */
+  background: linear-gradient(to bottom right, #FFFFFF 7%, #3C32B0 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+.skill{
+  /* border: 3px solid red; */
 }

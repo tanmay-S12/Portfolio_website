@@ -1,0 +1,84 @@
+.about-main {
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: transparent;
+
+    /* position: relative; */
+    /* Allow items to wrap to a new line if there's not enough space */
+}
+
+.abt-heading {
+    /* border: 3px solid green; */
+    height: 88vh;
+    padding-top: 9rem;
+    margin-top: 9rem;
+}
+
+.abt-heading h1 {
+    background: white;
+    /* background: #FFFFFF; */
+    background: linear-gradient(to bottom right, #FFFFFF 26%, #3C32B0 77%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.about-main img {
+    /* max-width: 100%; */
+    /* Make sure the image doesn't exceed its container's width */
+    /* height: 100%;.\ */
+    /* font-size: small; */
+    flex-basis: 25%;
+    display: flex;
+    margin: 0 3.5rem;
+    /* Maintain aspect ratio */
+}
+
+.image-div {
+    max-width: fit-content;
+    /* position: relative; */
+    object-fit: cover;
+
+}
+
+@media (max-width: 767px) {
+    .image-div img {
+        width: 70%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    .abt-heading h1 {
+        margin-top: 4%;
+    }
+}
+
+.svg-icons {
+    position: absolute;
+    max-width: fit-content;
+    border: 3px solid red;
+    top: 10px;
+    background: none;
+    font-size: small;
+    object-fit: cover;
+}
+
+.about-main>div {
+    /* flex: 1; */
+    /* flex: 1 1 30%; */
+    flex: 2 0 200px;
+
+    /* Distribute remaining space equally among the image and the AboutContent */
+    /* padding: 20px; */
+    /* Optional: Add some padding around the image */
+    box-sizing: border-box;
+    /* Optional: Include padding in the element's total width */
+}
+
+.about-sub {
+    flex-basis: 75%;
+    flex-wrap: wrap;
+}

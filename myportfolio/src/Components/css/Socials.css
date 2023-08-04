@@ -1,0 +1,35 @@
+.socials-main {
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(59, 59, 68, 0.75);
+    box-shadow: 0 8px 29px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 18px;
+    /* to stick the footer in bottom */
+    position: fixed;
+    z-index: 9999;
+    bottom: 1.3rem;
+    left: 35%;
+}
+
+.socials-main a{
+    background-color: transparent;
+}
+
+.socials-main a img {
+    object-fit: cover;
+    background-color: rgba(59, 59, 68, 0.2);
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border-radius: 30%;
+}
+
+.socials-main a img:hover {
+    transform: scale(1.2) translateY(-20px);
+    background-color: rgba(59, 59, 68, 0.75);
+    /* box-shadow: 0 0 10px rgba(31, 38, 135, 0.8); */
+    
+}
