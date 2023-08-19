@@ -5,8 +5,6 @@ import './css/Socials.css'
 
 
 const Socials = () => {
-
-
   const linkedInUrl = 'https://www.linkedin.com/in/tanmay-sankpal-a0054b245';
   const githubUrl = 'https://github.com/tanmay-S12';
   // const gmailUrl = '';
@@ -40,10 +38,7 @@ const Socials = () => {
         </div>
         {/* <div><img src={require('../assets/Footerimg/flinkedin.png')} alt="linekdin"/></div> */}
       </div>
-
-
     </>
-
   )
 }
 

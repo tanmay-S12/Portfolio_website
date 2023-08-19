@@ -16,7 +16,7 @@
     left: 35%;
 }
 
-.socials-main a{
+.socials-main a {
     background-color: transparent;
 }
 
@@ -30,6 +30,19 @@
 .socials-main a img:hover {
     transform: scale(1.2) translateY(-20px);
     background-color: rgba(59, 59, 68, 0.75);
-    /* box-shadow: 0 0 10px rgba(31, 38, 135, 0.8); */
-    
+}
+
+@media (max-width: 320px) {
+    .socials-main {
+        width: 85%;
+        left: 7.5%;
+        background-color: rgba(59, 59, 68, 0.75);
+        /* background-color: red; */
+    }
+
+    .socials-main a img {
+        background-color: rgba(59, 59, 68, 0.2);
+        width: 85%;
+    }
+
 }

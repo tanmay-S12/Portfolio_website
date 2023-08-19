@@ -6,7 +6,6 @@ import AboutContent from './AboutContent';
 export default function NoOppositeContent() {
     return (
         <>
-
             <div id='about' className='abt-heading' style={{ width: '99%', margin: ' 0 auto' }}>
                 <Galaxy />
 
@@ -23,14 +22,6 @@ export default function NoOppositeContent() {
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
-
-
         </>
     );
 }

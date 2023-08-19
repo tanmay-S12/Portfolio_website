@@ -8,9 +8,8 @@ import { Link } from 'react-scroll'
 
 const Navbarr = () => {
 
-    const [change, setChange] = useState(false)
-
-
+    const [change, setChange] = useState(false);
+    const screenWidth = window.innerWidth;
     return (
         <>
             <nav className='main-nav'>
@@ -24,7 +23,8 @@ const Navbarr = () => {
                         background: 'linear-gradient(to bottom right, #FFFFFF 20%, #3C32B0 100%)',
                         WebkitBackgroundClip: 'text',
                         WebkitTextFillColor: 'transparent',
-                        fontSize: '2.5rem'
+                        // fontSize: '2.5rem'
+                        fontSize: screenWidth <= 320 ? '1.7rem' : '2.5rem',
                     }}>Tanmay</h3>
 
                     {/* textShadow: "3px 3px #881ac3" */}

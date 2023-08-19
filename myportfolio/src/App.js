@@ -1,7 +1,7 @@
 import React from 'react'
 import Home from './Components/Home'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import Skils from './Components/Skils'
+import Skils from './Components/Skills'
 import './App.css'
 import About from './Components/About'
 import Navbarr from './Components/Navbarr'
@@ -26,9 +26,9 @@ const App = () => {
         <Socials />
         <About />
         <Skils />
-        
+
         {/* </Switch> */}
-       
+
       </Router>
     </>
   )
