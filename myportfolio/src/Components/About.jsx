@@ -4,15 +4,32 @@ import Galaxy from './Galaxy';
 import AboutContent from './AboutContent';
 // This is the main About Section in which some content is rendered from <AboutContent>
 export default function NoOppositeContent() {
+    const screenWidth = window.innerWidth;
     return (
         <>
             <div id='about' className='abt-heading' style={{ width: '99%', margin: ' 0 auto' }}>
                 <Galaxy />
+                <div>
+                    <h1 style={{
+                        textAlign: "center",
+                        fontWeight: "700",
+                    }}>About Me..</h1>
+                    <p style={{
+                        textAlign: "center",
+                        color: "white",
+                        fontWeight: '500',
+                        fontSize: screenWidth <= 320 ? "1rem" : "1.3rem",
+                        // display: "flex",
+                        flexWrap: "wrap",
+                        padding: '1vw',
+                        textAlignLast: "center",
+                        textDecoration: 'underline',
+                        textUnderlineOffset: '5px'
 
-                <h1 style={{
-                    textAlign: "center",
-                    fontWeight: "700",
-                }}>About Me..</h1>
+                    }}>Here I have mentioned about my past Experience and Qualifications</p>
+
+                </div>
+
                 <div className='about-main mt-2' >
                     <div className='image-div mt-0'>
                         <img src={require('../assets/SVGIcons/cropped-hacker.png')} alt="Coding image" />
@@ -21,7 +38,7 @@ export default function NoOppositeContent() {
                         <AboutContent />
                     </div>
                 </div>
-            </div>
+            </div >
         </>
     );
 }

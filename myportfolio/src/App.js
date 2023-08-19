@@ -8,6 +8,7 @@ import Navbarr from './Components/Navbarr'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Socials from './Components/Socials'
 import Galaxy from './Components/Galaxy'
+import Example from './Components/Example'
 
 
 
@@ -26,6 +27,7 @@ const App = () => {
         <Socials />
         <About />
         <Skils />
+        <Example />
 
         {/* </Switch> */}
 

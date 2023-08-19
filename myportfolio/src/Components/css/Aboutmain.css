@@ -5,6 +5,7 @@
     justify-content: center;
     flex-wrap: wrap;
     background: transparent;
+    /* border: 2px solid green; */
     /* position: relative; */
     /* Allow items to wrap to a new line if there's not enough space */
 }

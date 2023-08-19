@@ -31,10 +31,13 @@ const Skills = () => {
     return (
         // zIndex: '700'
         <section className="skill mb-5" id="skills" style={{
-            
-            background: "transparent", margin: '0 auto', color: '#F2F3F4',
+
+            background: "transparent", margin: '0 auto',
+            color: '#F2F3F4',
             height: screenWidth <= 320 ? "auto" : "80vh",
+            marginTop: screenWidth <= 320 ? "50rem" : "2rem",
             display: 'flex', justifyContent: 'center', alignItems: 'center',
+            // border: '2px solid white',
             '@media (max-width: 767px)': { height: 'auto', width: '100%' }
         }} >
 

@@ -28,24 +28,30 @@ export default function AboutContent() {
                         </TimelineSeparator>
                         <TimelineContent sx={{ color: 'white', fontWeight: '500', background: 'transparent' }} style={{ backgroundColor: 'transparent' }}>
                             <p style={{
-                                fontWeight: 'bolder', fontSize: '1.5rem', textShadow: ' 3px 3px 4px #3C32B0'
+                                fontWeight: 'bolder', fontSize: '1.5rem', textShadow: ' 3px 3px 4px #3C32B0', marginBottom: '0.5rem'
                             }}>Education :</p>
 
                             <ul style={{
-                                listStyle: 'inside', display: 'flex', flexDirection: 'column', fontSize: screenWidth <= 320 ? '0.4vh' : '2.8vh'
+                                listStyle: 'inside', display: 'flex', flexDirection: 'column', fontSize: screenWidth <= 320 ? '0.4vh' : '2.6vh'
                             }
                             }>
 
 
                                 <li style={{
-                                    fontSize: screenWidth <= 320 ? '2.2vh' : '2.8vh'
+                                    fontSize: screenWidth <= 320 ? "0.9rem" : "1.1rem"
                                 }}>Currently I'm pursuing B.E. in Information technology from University of Mumbai 🎓.</li>
                                 <li style={{
-                                    fontSize: screenWidth <= 320 ? '2.2vh' : '2.8vh'
+                                    fontSize: screenWidth <= 320 ? "0.9rem" : "1.1rem"
                                 }}>As a web developer, I specialize in specific programming languages, frameworks, or tools</li>
                                 <li style={{
-                                    fontSize: screenWidth <= 320 ? '2.2vh' : '2.8vh'
+                                    fontSize: screenWidth <= 320 ? "0.9rem" : "1.1rem"
                                 }}>I'm committed to clean code practices & dedicated to crafting top-notch websites that blend user-friendliness with stunning visuals.</li>
+                                <li style={{
+                                    fontSize: screenWidth <= 320 ? "0.9rem" : "1.1rem"
+                                }}>
+                                    I have explored different technologies and you can witness some of my exceptional work in the
+                                    <a href="#my-projects" style={{ color: 'white', fontWeight: 'bold' }}> Projects section </a>👇
+                                </li>
                             </ul>
                         </TimelineContent>
                     </TimelineItem>
@@ -55,14 +61,18 @@ export default function AboutContent() {
                             <TimelineConnector />
                         </TimelineSeparator>
                         <TimelineContent sx={{ color: 'white' }}>
-                            <p style={{ fontWeight: 'bolder', fontSize: '1.5rem', textShadow: ' 3px 3px 4px #3C32B0' }}>My Work :</p>
-                            <ul style={{ listStyle: 'inside', fontSize: '2.8vh' }}>
+                            <p style={{ fontWeight: 'bolder', fontSize: '1.5rem', textShadow: ' 3px 3px 4px #3C32B0', marginBottom: '0.5rem' }}>Internship :</p>
+                            <ul style={{ listStyle: 'inside', fontSize: '2.6vh' }}>
                                 <li style={{
-                                    fontSize: screenWidth <= 320 ? '2.2vh' : '2.8vh'
-                                }}>Currently I'm working as a Frontend Web Developer Intern at Studo Industries.pvt.ltd👩‍💻 .</li>
+                                    fontSize: screenWidth <= 320 ? "0.9rem" : "1.1rem"
+                                }}>As a Web Developer Intern at <span style={{ fontWeight: 'bold' }}>Studo Industries</span>, I focused on Frontend development, utilizing ReactJs & Tailwind CSS to create captivating and user-friendly interfaces.</li>
                                 <li style={{
-                                    fontSize: screenWidth <= 320 ? '2.2vh' : '2.8vh'
-                                }}>I have explored different technologies and you can witness some of my exceptional work in the <a href="#my-projects" style={{ color: 'white', fontWeight: 'bold' }}>Projects section </a>👇</li>
+                                    fontSize: screenWidth <= 320 ? "0.9rem" : "1.1rem"
+                                }}>Collaborating with the team, I contributed to the design and development of interactive web applications. This experience enhanced my proficiency in modern web development tools & methodologies. Checkout my&nbsp;&nbsp;
+                                    <a href="#" style={{ color: 'white', fontWeight: 'bold', textDecoration: 'underline' }}>Internship Completion Letter.</a>
+                                </li>
+
+                                {/* 👇 */}
                             </ul>
                         </TimelineContent>
                         {/* <TimelineContent>Education</TimelineContent> */}

@@ -43,7 +43,7 @@ const Navbarr = () => {
                     <ul className='grow2' >
 
                         <li className='grow' > <Link to="home" spy={true} smooth={true} offset={-100} duration={500} >Home</Link></li>
-                        <li className='grow' > <Link to="about" spy={true} smooth={true} offset={-90} duration={500}>About</Link></li>
+                        <li className='grow' > <Link to="about" spy={true} smooth={true} offset={-36} duration={500}>About</Link></li>
                         <li className='grow' > <Link to="skills" spy={true} smooth={true} offset={-86} duration={500}>Skills</Link></li>
                         <li className='grow' > <Link to="projects" spy={true} smooth={true} offset={50} duration={500}>Projects</Link></li>
                         <li className='grow' > <Link to="contact" spy={true} smooth={true} offset={50} duration={500}>Contact</Link> </li>
