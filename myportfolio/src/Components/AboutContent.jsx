@@ -27,14 +27,24 @@ export default function AboutContent() {
                             <TimelineConnector />
                         </TimelineSeparator>
                         <TimelineContent sx={{ color: 'white', fontWeight: '500', background: 'transparent' }} style={{ backgroundColor: 'transparent' }}>
-                            <p style={{
-                                fontWeight: 'bolder', fontSize: '1.5rem', textShadow: ' 3px 3px 4px #3C32B0', marginBottom: '0.5rem'
-                            }}>Education :</p>
+                            <p
+                                data-aos="fade-zoom-in"
+                                data-aos-easing="ease-in-back"
+                                // data-aos-delay="100"
+                                data-aos-offset="0"
+                                style={{
+                                    fontWeight: 'bolder', fontSize: '1.5rem', textShadow: ' 3px 3px 4px #3C32B0', marginBottom: '0.5rem'
+                                }}>Education :</p>
 
-                            <ul style={{
-                                listStyle: 'inside', display: 'flex', flexDirection: 'column', fontSize: screenWidth <= 320 ? '0.4vh' : '2.6vh'
-                            }
-                            }>
+                            <ul
+                                data-aos="fade-zoom-in"
+                                data-aos-easing="ease-in-back"
+                                // data-aos-delay="100"
+                                data-aos-offset="0"
+                                style={{
+                                    listStyle: 'inside', display: 'flex', flexDirection: 'column', fontSize: screenWidth <= 320 ? '0.4vh' : '2.6vh'
+                                }
+                                }>
 
 
                                 <li style={{
@@ -61,8 +71,19 @@ export default function AboutContent() {
                             <TimelineConnector />
                         </TimelineSeparator>
                         <TimelineContent sx={{ color: 'white' }}>
-                            <p style={{ fontWeight: 'bolder', fontSize: '1.5rem', textShadow: ' 3px 3px 4px #3C32B0', marginBottom: '0.5rem' }}>Internship :</p>
-                            <ul style={{ listStyle: 'inside', fontSize: '2.6vh' }}>
+                            <p
+                                data-aos="fade-zoom-in"
+                                data-aos-easing="ease-in-back"
+                                // data-aos-delay="100"
+                                data-aos-offset="0"
+                                style={{ fontWeight: 'bolder', fontSize: '1.5rem', textShadow: ' 3px 3px 4px #3C32B0', marginBottom: '0.5rem' }}>Internship :</p>
+                            <ul
+                                data-aos="fade-zoom-in"
+                                data-aos-easing="ease-in-back"
+                                // data-aos-delay="100"
+                                data-aos-offset="0"
+
+                                style={{ listStyle: 'inside', fontSize: '2.6vh' }}>
                                 <li style={{
                                     fontSize: screenWidth <= 320 ? "0.9rem" : "1.1rem"
                                 }}>As a Web Developer Intern at <span style={{ fontWeight: 'bold' }}>Studo Industries</span>, I focused on Frontend development, utilizing ReactJs & Tailwind CSS to create captivating and user-friendly interfaces.</li>

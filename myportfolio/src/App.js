@@ -27,7 +27,7 @@ const App = () => {
         <Socials />
         <About />
         <Skils />
-        <Example />
+        {/* <Example /> */}
 
         {/* </Switch> */}
 

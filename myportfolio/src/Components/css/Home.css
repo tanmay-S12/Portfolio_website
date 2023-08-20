@@ -49,13 +49,19 @@
     }
 
     .button-5 {
-        font-size: 1rem;
-        font-weight: 100;
+
+
+        height: auto;
+
+    }
+
+    #resume-button {
+        font-size: 1.1rem;
+        font-weight: 300;
         padding-left: 0.3rem;
         padding-right: 0.3rem;
-        padding-top: 0.3rem;
-        padding-bottom: 0.3rem;
-
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
     }
 }
 
