@@ -39,7 +39,6 @@ a {
 
 .ham-menu {
     display: none;
-
 }
 
 .grow2 li:hover {
@@ -86,8 +85,6 @@ a {
     position: fixed;
     top: 0;
     z-index: 9999;
-
-
 }
 
 .nav-logo {

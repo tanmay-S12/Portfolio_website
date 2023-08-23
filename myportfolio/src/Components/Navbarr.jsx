@@ -2,20 +2,25 @@ import React, { useState } from 'react'
 import './css/Navbarr.css'
 import { AiOutlineMenu } from 'react-icons/ai'
 import { Link } from 'react-scroll'
-// import { HashLink as Link } from 'react-router-hash-link'
-// import { NavLink } from 'react-router-dom';
-// import { LuBug } from 'react-icons/lu'
+
 
 const Navbarr = () => {
 
 
 
     const [change, setChange] = useState(false);
+
     const screenWidth = window.innerWidth;
+
+    const closeMobileMenu = () => {
+        setChange(false);
+    };
+
     const openResume = () => {
         // Replace with your actual URL
         const resumeUrl = '';
         window.open(resumeUrl, '_blank');
+        setChange(false);
     }
     return (
         <>
@@ -39,6 +44,7 @@ const Navbarr = () => {
                 </div>
 
                 <div className='ham-menu'>
+
                     <a href="#" onClick={() => setChange(!change)}>
                         <AiOutlineMenu style={{ border: '1px solid white', padding: '2px', borderRadius: '10%' }} />
                     </a>
@@ -46,14 +52,24 @@ const Navbarr = () => {
 
                 <div className={
                     change ? "mobile-nav nav-options" : "nav-options"
-                }>
-                    <ul className='grow2' >
+                }
+                // onClick={closeMobileMenu}
 
-                        <li className='grow' > <Link to="home" spy={true} smooth={true} offset={-100} duration={500} >Home</Link></li>
-                        <li className='grow' > <Link to="about" spy={true} smooth={true} offset={-36} duration={500}>About</Link></li>
-                        <li className='grow' > <Link to="skills" spy={true} smooth={true} offset={-86} duration={500}>Skills</Link></li>
-                        <li className='grow' > <Link to="projects" spy={true} smooth={true} offset={-90} duration={500}>Projects</Link></li>
-                        <li className='grow' > <Link to="footer" spy={true} smooth={true} offset={50} duration={1100}>Contact</Link> </li>
+                >
+                    <ul
+
+
+                        className='grow2' >
+
+                        <li className='grow' > <Link to="home" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMobileMenu} >Home</Link></li>
+
+                        <li className='grow' > <Link to="about" spy={true} smooth={true} offset={-36} duration={500} onClick={closeMobileMenu}>About</Link></li>
+
+                        <li className='grow' > <Link to="skills" spy={true} smooth={true} offset={-86} duration={500} onClick={closeMobileMenu}>Skills</Link></li>
+
+                        <li className='grow' > <Link to="projects" spy={true} smooth={true} offset={-90} duration={500} onClick={closeMobileMenu}>Projects</Link></li>
+
+                        <li className='grow' > <Link to="footer" spy={true} smooth={true} offset={50} duration={1100} onClick={closeMobileMenu}>Contact</Link> </li>
                         {/* <button style={{ backgroundColor: 'red' }}>MY Resume</button> */}
                         <button
 
