@@ -1,6 +1,35 @@
 * {
   background-color: #1A1A1A;
-
   font-family: 'Poppins', sans-serif;
 }
 
+
+/* Scrollbar customization */
+::-webkit-scrollbar {
+  width: 6px;
+  /* Width of the scrollbar */
+}
+
+
+/* @media(min-width : 425px) { */
+
+::-webkit-scrollbar-thumb {
+  background-color: #574dc2;
+  ;
+  /* Color of the thumb */
+  border-radius: 50px;
+  height: 100px;
+  /* Rounded corners for the thumb */
+}
+
+::-webkit-scrollbar-track {
+  /* background-color: rgb(92, 91, 91); */
+  background-color: rgb(80, 77, 77);
+  /* Color of the track */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #413996;
+}
+
+/* } */
