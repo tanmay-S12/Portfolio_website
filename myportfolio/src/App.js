@@ -10,6 +10,7 @@ import Socials from './Components/Socials'
 import Galaxy from './Components/Galaxy'
 import Example from './Components/Example'
 import Footer from './Components/Footer'
+import Projects from './Components/Projects'
 
 
 
@@ -21,16 +22,16 @@ const App = () => {
         {/* <Switch> */}
 
         <Navbarr />
-        {/* <Galaxy/> */}
-        {/* <AboutImage /> */}
-        {/* <Hoodie /> */}
+
 
 
         <Home />
         <Socials />
         <About />
         <Skils />
+        <Projects />
         <Footer />
+
 
 
 
