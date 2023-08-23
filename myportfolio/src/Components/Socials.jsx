@@ -7,7 +7,6 @@ import './css/Socials.css'
 const Socials = () => {
   const linkedInUrl = 'https://www.linkedin.com/in/tanmay-sankpal-a0054b245';
   const githubUrl = 'https://github.com/tanmay-S12';
-  // const gmailUrl = '';
   const twitterUrl = 'https://twitter.com/TanmaySankpal1';
 
 

@@ -45,4 +45,8 @@
         width: 85%;
     }
 
+    .socials-main a img:hover {
+        transform: none
+    }
+
 }
