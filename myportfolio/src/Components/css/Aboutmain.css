@@ -88,3 +88,9 @@
     flex-basis: 75%;
     flex-wrap: wrap;
 }
+
+@media(max-width:425px) {
+    .about-main {
+        flex-direction: column;
+    }
+}

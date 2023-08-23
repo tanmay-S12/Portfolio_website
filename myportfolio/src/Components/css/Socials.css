@@ -32,7 +32,7 @@
     background-color: rgba(59, 59, 68, 0.75);
 }
 
-@media (max-width: 320px) {
+@media (max-width: 425px) {
     .socials-main {
         width: 85%;
         left: 7.5%;

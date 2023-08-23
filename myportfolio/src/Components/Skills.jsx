@@ -4,9 +4,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import 'react-multi-carousel/lib/styles.css';
 import './css/Skills.css'
-import { green } from '@mui/material/colors';
-import Galaxy from './Galaxy';
-import zIndex from '@mui/material/styles/zIndex';
+
 
 const Skills = () => {
 
@@ -43,8 +41,14 @@ const Skills = () => {
 
                 background: "transparent", margin: '0 auto',
                 color: '#F2F3F4',
-                height: screenWidth <= 320 ? "auto" : "80vh",
-                marginTop: screenWidth <= 320 ? "50rem" : "2rem",
+                height: screenWidth <= 425 ? "auto" : "80vh",
+
+                // marginTop: screenWidth <= 320 ? "50rem" : "2rem",
+
+                marginTop: screenWidth <= 414 ? "47rem" : "2rem",
+
+                // marginTop: screenWidth <= 425 ? "40rem" : "2rem",
+
                 display: 'flex', justifyContent: 'center', alignItems: 'center',
                 // border: '2px solid white',
                 '@media (max-width: 767px)': { height: 'auto', width: '100%' }
@@ -87,11 +91,11 @@ const Skills = () => {
                                 data-aos-duration="3000"
                                 style={{
 
-                                    marginTop: screenWidth <= 320 ? '0.4rem' : '2rem',
+                                    marginTop: screenWidth <= 425 ? '0.4rem' : '2rem',
                                     // height: "65vh",
-                                    height: screenWidth <= 320 ? "auto" : "65vh",
+                                    height: screenWidth <= 425 ? "auto" : "65vh",
                                     // width: '75vw',
-                                    width: screenWidth <= 320 ? "90vw" : "75vw",
+                                    width: screenWidth <= 425 ? "90vw" : "75vw",
                                     border: '3px solid #0277BD',
                                     borderRadius: '30px',
                                     boxShadow: "#0277BD 0px 4px 6px -2px, rgba(0, 0, 0, 0.3) 0px 3px 5px -3px"
@@ -101,8 +105,8 @@ const Skills = () => {
                                 <div style={{
                                     // zIndex: '99',
                                     borderRadius: '70px',
-                                    padding: screenWidth <= 320 ? '0.5rem' : '',
-                                    paddingBottom: screenWidth <= 320 ? '0.7rem' : '',
+                                    padding: screenWidth <= 425 ? '0.5rem' : '',
+                                    paddingBottom: screenWidth <= 425 ? '0.7rem' : '',
                                     '@media (max-width: 767px)':
                                     {
                                         height: 'auto',
@@ -116,16 +120,16 @@ const Skills = () => {
 
                                     <p className='' style={{
                                         // border: '2px solid red',
-                                        padding: screenWidth <= 320 ? "0.3rem" : "1rem",
-                                        height: screenWidth <= 320 ? "auto" : "14vh",
+                                        padding: screenWidth <= 425 ? "0.3rem" : "1rem",
+                                        height: screenWidth <= 425 ? "auto" : "14vh",
                                         marginTop: '0.3vh',
-                                        marginBottom: screenWidth <= 320 ? '0.3vh' : '2rem',
+                                        marginBottom: screenWidth <= 425 ? '0.3vh' : '2rem',
                                         fontWeight: 'normal',
                                         borderRadius: '70px',
 
-                                        fontSize: screenWidth <= 320 ? '2.5vh' : '2.8vh',
+                                        fontSize: screenWidth <= 425 ? '2.5vh' : '2.8vh',
 
-                                        //fontSize: screenWidth <= 320 ? '0.4vh' : '2.8vh' '@media (max-width: 767px)': { height: 'auto', padding: "0" },
+                                        //fontSize: screenWidth <= 425 ? '0.4vh' : '2.8vh' '@media (max-width: 767px)': { height: 'auto', padding: "0" },
 
                                     }}>As a passionate <span style={{ fontWeight: 'bold' }}>MERN stack developer</span>, I boast a strong foundation in utilizing programming languages, software frameworks, design tools, and project management approaches to showcase my expertise and skills.</p>
                                     {/* border: '2px solid pink', */}

@@ -42,22 +42,22 @@ export default function AboutContent() {
                                 // data-aos-delay="100"
                                 data-aos-offset="0"
                                 style={{
-                                    listStyle: 'inside', display: 'flex', flexDirection: 'column', fontSize: screenWidth <= 320 ? '0.4vh' : '2.6vh'
+                                    listStyle: 'inside', display: 'flex', flexDirection: 'column', fontSize: screenWidth <= 425 ? '0.4vh' : '2.6vh'
                                 }
                                 }>
 
 
                                 <li style={{
-                                    fontSize: screenWidth <= 320 ? "0.9rem" : "1.1rem"
+                                    fontSize: screenWidth <= 425 ? "0.9rem" : "1.1rem"
                                 }}>Currently I'm pursuing B.E. in Information technology from University of Mumbai 🎓.</li>
                                 <li style={{
-                                    fontSize: screenWidth <= 320 ? "0.9rem" : "1.1rem"
+                                    fontSize: screenWidth <= 425 ? "0.9rem" : "1.1rem"
                                 }}>As a web developer, I specialize in specific programming languages, frameworks, or tools</li>
                                 <li style={{
-                                    fontSize: screenWidth <= 320 ? "0.9rem" : "1.1rem"
+                                    fontSize: screenWidth <= 425 ? "0.9rem" : "1.1rem"
                                 }}>I'm committed to clean code practices & dedicated to crafting top-notch websites that blend user-friendliness with stunning visuals.</li>
                                 <li style={{
-                                    fontSize: screenWidth <= 320 ? "0.9rem" : "1.1rem"
+                                    fontSize: screenWidth <= 425 ? "0.9rem" : "1.1rem"
                                 }}>
                                     I have explored different technologies and you can witness some of my exceptional work in the
                                     <a href="#my-projects" style={{ color: 'white', fontWeight: 'bold' }}> Projects section </a>👇
@@ -85,10 +85,10 @@ export default function AboutContent() {
 
                                 style={{ listStyle: 'inside', fontSize: '2.6vh' }}>
                                 <li style={{
-                                    fontSize: screenWidth <= 320 ? "0.9rem" : "1.1rem"
+                                    fontSize: screenWidth <= 425 ? "0.9rem" : "1.1rem"
                                 }}>As a Web Developer Intern at <span style={{ fontWeight: 'bold' }}>Studo Industries</span>, I focused on Frontend development, utilizing ReactJs & Tailwind CSS to create captivating and user-friendly interfaces.</li>
                                 <li style={{
-                                    fontSize: screenWidth <= 320 ? "0.9rem" : "1.1rem"
+                                    fontSize: screenWidth <= 425 ? "0.9rem" : "1.1rem"
                                 }}>Collaborating with the team, I contributed to the design and development of interactive web applications. This experience enhanced my proficiency in modern web development tools & methodologies. Checkout my&nbsp;&nbsp;
                                     <a href="#" style={{ color: 'white', fontWeight: 'bold', textDecoration: 'underline' }}>Internship Completion Letter.</a>
                                 </li>

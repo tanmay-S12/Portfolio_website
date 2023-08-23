@@ -5,9 +5,14 @@ import AboutContent from './AboutContent';
 // This is the main About Section in which some content is rendered from <AboutContent>
 export default function NoOppositeContent() {
     const screenWidth = window.innerWidth;
+
     return (
         <>
-            <div id='about' className='abt-heading' style={{ width: '99%', margin: ' 0 auto' }}>
+            <div id='about' className='abt-heading' style={{
+                width: '99%', margin: ' 0 auto',
+                // marginBottom: screenWidth <= 425 ? "10rem" : ""
+                // marginBottom: '8 rem'
+            }}>
                 <Galaxy />
                 <div>
                     <h1
@@ -25,7 +30,7 @@ export default function NoOppositeContent() {
                             textAlign: "center",
                             color: "white",
                             fontWeight: '500',
-                            fontSize: screenWidth <= 320 ? "1rem" : "1.3rem",
+                            fontSize: screenWidth <= 425 ? "1rem" : "1.3rem",
                             // display: "flex",
                             flexWrap: "wrap",
                             padding: '1vw',
@@ -38,6 +43,7 @@ export default function NoOppositeContent() {
                 </div>
 
                 <div className='about-main mt-2' >
+
                     <div
                         data-aos="fade-up"
                         data-aos-duration="2000"

@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Socials from './Components/Socials'
 import Galaxy from './Components/Galaxy'
 import Example from './Components/Example'
+import Footer from './Components/Footer'
 
 
 
@@ -23,12 +24,17 @@ const App = () => {
         {/* <Galaxy/> */}
         {/* <AboutImage /> */}
         {/* <Hoodie /> */}
+
+
         <Home />
         <Socials />
         <About />
         <Skils />
-        {/* <Example /> */}
+        <Footer />
 
+
+
+        {/* <Example /> */}
         {/* </Switch> */}
 
       </Router>

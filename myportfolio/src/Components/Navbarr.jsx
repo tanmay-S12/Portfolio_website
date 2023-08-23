@@ -8,8 +8,15 @@ import { Link } from 'react-scroll'
 
 const Navbarr = () => {
 
+
+
     const [change, setChange] = useState(false);
     const screenWidth = window.innerWidth;
+    const openResume = () => {
+        // Replace with your actual URL
+        const resumeUrl = '';
+        window.open(resumeUrl, '_blank');
+    }
     return (
         <>
             <nav className='main-nav'>
@@ -46,7 +53,14 @@ const Navbarr = () => {
                         <li className='grow' > <Link to="about" spy={true} smooth={true} offset={-36} duration={500}>About</Link></li>
                         <li className='grow' > <Link to="skills" spy={true} smooth={true} offset={-86} duration={500}>Skills</Link></li>
                         <li className='grow' > <Link to="projects" spy={true} smooth={true} offset={50} duration={500}>Projects</Link></li>
-                        <li className='grow' > <Link to="contact" spy={true} smooth={true} offset={50} duration={500}>Contact</Link> </li>
+                        <li className='grow' > <Link to="footer" spy={true} smooth={true} offset={50} duration={1100}>Contact</Link> </li>
+                        {/* <button style={{ backgroundColor: 'red' }}>MY Resume</button> */}
+                        <button
+
+                            id="resume-button" className="button-5" role="button" onClick={openResume}
+                            style={{
+                                // backgroundColor: 'white'
+                            }}> Resume </button>
 
                     </ul>
                 </div>

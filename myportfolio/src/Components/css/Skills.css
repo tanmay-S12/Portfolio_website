@@ -13,5 +13,50 @@
   -webkit-text-fill-color: transparent;
   font-weight: 700;
 }
+
+.skill {
+  display: flex;
+  /* height: screenWidth <= 425 ? "auto" : "80vh"; */
+  margin-top: 2rem;
+
+}
+
+/* @media only screen and (max-width: 425px) {
+  .skill {
+    margin-top: 40rem;
+  }
+} */
+
+/* .skill {
+  margin-top: 2rem;
+} */
+
+
+
+
+/* @media(max-width:320) {
+
+  .skill {
+    margin-top: 50rem;
+  }
+
+} */
+
+/* @media(max-width:375) {
+
+  .skill {
+    margin-top: 47rem;
+  }
+
+} */
+/* 
+@media(max-width:425) {
+
+  .skill {
+    margin-top: 40rem;
+  }
+
+} */
+
 /* .skill{
   /* border: 3px solid red; */
