@@ -1,9 +1,6 @@
 import React, { useEffect } from 'react'
 import './css/Home.css'
-// import { requirePropFactory } from '@mui/material'
-import { FaGreaterThan } from 'react-icons/fa'
 import Galaxy from './Galaxy'
-import { GrDocumentVerified } from 'react-icons/gr'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
@@ -64,7 +61,6 @@ const Home = () => {
             style={{
               // backgroundColor: 'white'
             }}> Resume </button>
-
         </div>
 
         <div id='HomeImage'
@@ -75,8 +71,9 @@ const Home = () => {
           // className={screenWidth <= 425 ? 'home-image floating' : 'home-image mobile-float'}>
           className={`home-image ${screenWidth <= 375 ? 'mobile-float' : 'floating'}`}>
           <img src={require('../assets/Home-computer.png')} alt="" />
-
         </div>
+
+
       </div >
       <Galaxy />
     </>

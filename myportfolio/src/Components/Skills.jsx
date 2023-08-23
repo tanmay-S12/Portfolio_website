@@ -45,7 +45,7 @@ const Skills = () => {
 
                 // marginTop: screenWidth <= 320 ? "50rem" : "2rem",
 
-                marginTop: screenWidth <= 414 ? "33rem" : "2rem",
+                marginTop: screenWidth <= 414 ? "35.2rem" : "2rem",
 
                 // marginTop: screenWidth <= 425 ? "40rem" : "2rem",
 

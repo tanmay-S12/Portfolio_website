@@ -26,6 +26,7 @@
         margin-bottom: 0;
     }
 
+
     #HomeImage {
         background-color: transparent;
         margin-left: 1rem;
@@ -45,14 +46,11 @@
         width: 95vw;
         margin-right: 0;
         margin-left: 0;
-        margin-top: 0.4rem;
+        margin-top: 2.5rem;
     }
 
     .button-5 {
-
-
         height: auto;
-
     }
 
     #resume-button {
@@ -64,6 +62,19 @@
         padding-bottom: 0.2rem;
     }
 }
+
+@media (max-width:375px) {
+    #HomeContent {
+        margin-top: 1rem;
+    }
+}
+
+/* @media only screen and (max-width: 375px) {
+    .home-main {
+        margin-top: 9rem;
+    }
+
+} */
 
 .home-content {
     /* border: 3px solid green; */
